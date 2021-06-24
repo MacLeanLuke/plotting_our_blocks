@@ -1,42 +1,47 @@
 .container{
     width: 950px;
-    padding: 20px;
     background-color: silver;
     margin: 0px auto;
+    /* give this box a perimeter gutter */
+    padding: 20px;
 }
 .top-nav {
-    margin-bottom: 20px;
     height: 150px;
-    width: 925px;
+    width: 945px;
     background-color: green;
+    /* Put some space between the green, blue and red */
+    margin-bottom: 20px;
 }
 .side-nav {
-    display: inline-block;
     height: 300px;
     width: 200px;
     background-color: blue;
+    /* put the main class in line with the side class */
+    display: inline-block;
 }
 .main {
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 20px;
     height: 400px;
     width: 700px;
     background-color: red;
+    padding: 10px;/* put the main class in line with the side class */
+    display: inline-block;
+    /* align the red box with the top of the blue box */
+    vertical-align: top;
+    /* put space between blue and red boxes */
+    margin-left: 20px;
 }
 .sub-content {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
     height: 200px;
     width: 210px;
     background-color: yellow;
+    display: inline-block;
+    margin: 10px;
 }
 #advertisement {
-    margin-top: 20px;
-    margin-left: 10px;
     height: 120px;
     width: 660px;
     background-color: purple;
+    margin: 10px;
+    padding: 10px;
 }
 
